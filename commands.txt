@@ -1,0 +1,6 @@
+docker-compose -f docker-compose-prod.yml up -d --build #actualiza e instala
+docker-compose -f docker-compose-prod.yml up -d #actualiza
+docker-compose -f docker-compose-prod.yml run users python manage.py [cli-command] #ejecutar comando creado en manage.py
+docker-machine create --driver virtualbox testdriven-prod #crea dockermachine con virtualbox
+eval $(docker-machine env testdriven-prod) #configurar la dockermachine como host
+
