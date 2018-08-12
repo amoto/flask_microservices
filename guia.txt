@@ -1,0 +1,2 @@
+https://testdriven.io/part-one-restful-routes
+https://mherman.org/presentations/microservices-flask-docker/#23
